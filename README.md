@@ -12,7 +12,7 @@ meuStorage = localStorage;
 ## Exemplo
 O seguinte trecho acessa o objeto [Storage](https://developer.mozilla.org/pt-BR/docs/Web/API/Storage) local do domínio atual e adiciona um item usando o [Storage.setItem()](https://developer.mozilla.org/pt-BR/docs/Web/API/Storage/setItem).
 ```javascript
-localStorage.setItem('meuGato', 'Tom');
+localStorage.setItem('meuCachorro', 'Toy');
 ```
 
 ## Setup
