@@ -5,10 +5,21 @@ Projeto de estudos sobre como armazenar dados no navegador por meio da proprieda
 
 A propriedade `localStorage` permite acessar um objeto [Storage](https://developer.mozilla.org/pt-BR/docs/Web/API/Storage) local. A `localStorage` é similar ao [sessionStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage). A única diferença é que enquanto os dados armazenados no `localStorage` não expiram, os dados no `sessionStorage` tem os seus dados limpos ao expirar a sessão da página — ou seja, quando a página (aba ou janela) é fechada.
 
+## Sintaxe
+```javascript
+meuStorage = localStorage;
+```
+## Exemplo
+O seguinte trecho acessa o objeto [Storage](https://developer.mozilla.org/pt-BR/docs/Web/API/Storage) local do domínio atual e adiciona um item usando o [Storage.setItem()](https://developer.mozilla.org/pt-BR/docs/Web/API/Storage/setItem).
+```javascript
+localStorage.setItem('meuGato', 'Tom');
+```
+
 ## Setup
 Apenas faça dawnload do projeto e abra o arquivo `index.html` em seu browser.
 
 Sugestão: usar o liveServer do VSC.
 
 ## Font
-- [Alura / JavaScript na Web: armazenando dados no navegador](https://cursos.alura.com.br/course/javascript-web-armazenando-dados-navegador)
+- [Alura / JavaScript na Web: armazenando dados no navegador](https://cursos.alura.com.br/course/javascript-web-armazenando-dados-navegador);
+- [Mozilla / localStorage](https://developer.mozilla.org/pt-BR/docs/Web/API/Window/localStorage).
